@@ -47,3 +47,41 @@
     color: rgba(231, 84, 21, 0.893);
     transition: all 0.4s;
 }
+
+.menu {
+    position: fixed;
+    display: none;
+    background-color: rgb(61, 214, 27);
+    height: 85%;
+    width: 70%;
+    top: 0;
+    right: 0;
+}
+
+.hamborger_menu_icon {
+    background-color: tomato;
+    height: 2em;
+    width: 2em;
+    display: none;
+    cursor: pointer;
+}
+
+.List_menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    list-style: none;
+    height: 50%;
+}
+
+@media only screen and (max-width: 660px) {
+    .Nav_List {
+        display: none;
+    }
+
+    .hamborger_menu_icon {
+        display: block;
+    }
+}
