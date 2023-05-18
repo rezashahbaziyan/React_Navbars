@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .Navbar {
@@ -18,10 +19,22 @@
     background-color: aqua;
     width: 2.5em;
     height: 2.5em;
+    cursor: pointer;
 }
 
 .Nav_List {
     background-color: violet;
     height: 2.5em;
-    width: 80%;
+    width: 50%;
+}
+
+.List {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+}
+.List_Item{
+    cursor: pointer;
 }
