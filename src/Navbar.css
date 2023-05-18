@@ -8,11 +8,11 @@
 .Navbar {
     width: 100%;
     height: 3em;
-    background-color: tomato;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 1em;
+    box-shadow: 0px 0px 9px 0px #0000003c;
 }
 
 .Logo {
@@ -23,7 +23,6 @@
 }
 
 .Nav_List {
-    background-color: violet;
     height: 2.5em;
     width: 50%;
 }
@@ -35,6 +34,11 @@
     height: 100%;
     align-items: center;
 }
-.List_Item{
+
+.List_Item {
     cursor: pointer;
+}
+
+.List_Item:hover {
+    color: rgba(0, 0, 0, 0.701);
 }
