@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Navbar {
+    width: 100%;
+    height: 3em;
+    background-color: tomato;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1em;
+}
+
+.Logo {
+    background-color: aqua;
+    width: 2.5em;
+    height: 2.5em;
+}
+
+.Nav_List {
+    background-color: violet;
+    height: 2.5em;
+    width: 80%;
+}
